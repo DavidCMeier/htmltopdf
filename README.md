@@ -6,7 +6,7 @@ install dependencies:
 If you want to use with docker: 
 
 ``` 
-docker build -t davidcmeier/htmltopdf
+docker build -t davidcmeier/htmltopdf .
 docker run -P 5000:5000 -d davidcmeier/htmltopdf
 ```
 
