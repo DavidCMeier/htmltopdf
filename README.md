@@ -14,7 +14,7 @@ otherwise if you want to run in local: ``node htmltopdf``
 
 ## How to use
 
-When you have the server up, just make a post call send it a json like this in the body: 
+When you have the server up, just make a post call to  ``api/v1/htmltopdf `` and send it a json like this in the body: 
 ```
 {
   html:'<!doctype html>
